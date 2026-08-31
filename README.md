@@ -1,6 +1,6 @@
 <div align="center">
 
-# ⚡ Market Intelligence for Electric Vehicles in India
+# Market Intelligence for Electric Vehicles in India
 
 ### A Data Analysis & Visualization (DAV) Project
 
@@ -15,7 +15,7 @@
 
 ---
 
-## 📌 Overview
+## Overview
 
 India's electric vehicle (EV) industry is in a phase of rapid growth, fueled by government
 incentives, falling battery costs, and rising demand for sustainable mobility. This project
@@ -28,16 +28,16 @@ growth, manufacturer competitiveness, state-wise adoption, battery & pricing tre
 infrastructure, and subsidy effectiveness — concluding with data-driven strategic
 recommendations for India's EV ecosystem.
 
-| | |
-|---|---|
-| **Author** | Yash Jain |
-| **Institution** | Techno NJR Institute of Technology |
-| **Dataset Size** | 30,100 rows × 32 columns |
+|                  |                                                          |
+| ---------------- | -------------------------------------------------------- |
+| **Author**       | Yash Jain                                                |
+| **Institution**  | Techno NJR Institute of Technology                       |
+| **Dataset Size** | 30,100 rows × 32 columns                                 |
 | **Deliverables** | Jupyter Notebook, Raw Dataset (CSV), Presentation (PPTX) |
 
 ---
 
-## 🎯 Problem Statements
+## Problem Statements
 
 This project addresses the following market intelligence questions:
 
@@ -59,9 +59,9 @@ This project addresses the following market intelligence questions:
 
 ---
 
-## 🗂️ Repository Structure
+## Repository Structure
 
-```
+```text
 DAV-Project-EV-Market-India/
 ├── notebooks/
 │   └── Market_Intelligence_for_EV_in_India.ipynb   # Full analysis notebook
@@ -77,17 +77,18 @@ DAV-Project-EV-Market-India/
 
 ---
 
-## 🧭 Methodology
+## Methodology
 
 The notebook follows a structured DAV workflow:
 
 1. **Data Loading & Profiling** — shape, dtypes, null counts, unique-value inspection
 2. **Data Cleaning**
-   - Renaming columns for clarity
-   - Duplicate detection & removal
-   - Standardizing inconsistent categorical text (e.g., manufacturer name casing)
-   - Missing-value treatment (median imputation for numeric fields, mode/placeholder for categorical)
-   - Outlier treatment using the IQR method
+
+   * Renaming columns for clarity
+   * Duplicate detection & removal
+   * Standardizing inconsistent categorical text (e.g., manufacturer name casing)
+   * Missing-value treatment (median imputation for numeric fields, mode/placeholder for categorical)
+   * Outlier treatment using the IQR method
 3. **Exploratory Data Analysis (EDA)** — univariate, bivariate, and multivariate analysis using
    bar charts, line plots, box plots, scatter plots, swarm plots, a correlation heatmap, and a
    pair plot
@@ -97,16 +98,16 @@ The notebook follows a structured DAV workflow:
 
 ---
 
-## 📊 Dataset Description
+## Dataset Description
 
 The dataset simulates India's EV registration landscape and includes:
 
-- **Vehicle attributes:** Manufacturer, Model, Vehicle Category/Class, Fuel Type, Battery (kWh),
+* **Vehicle attributes:** Manufacturer, Model, Vehicle Category/Class, Fuel Type, Battery (kWh),
   Range (km), Charging Type, Price (INR)
-- **Registration details:** Registration ID, Date, Year, Month, Quarter, State, District, RTO,
+* **Registration details:** Registration ID, Date, Year, Month, Quarter, State, District, RTO,
   Latitude/Longitude
-- **Market metrics:** Registration Count, Market Share, YoY/MoM Growth, Sales Target
-- **Macro & infrastructure indicators:** Charging Stations, Fuel Price, State GDP, Population,
+* **Market metrics:** Registration Count, Market Share, YoY/MoM Growth, Sales Target
+* **Macro & infrastructure indicators:** Charging Stations, Fuel Price, State GDP, Population,
   Urbanization Rate, Temperature, Festival season
 
 > **Source:** Simulated dataset modeled on realistic patterns observed in India's EV market,
@@ -114,12 +115,12 @@ The dataset simulates India's EV registration landscape and includes:
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
-- Python 3.9+
-- Jupyter Notebook / JupyterLab
+* Python 3.9+
+* Jupyter Notebook / JupyterLab
 
 ### Installation
 
@@ -144,43 +145,43 @@ jupyter notebook notebooks/Market_Intelligence_for_EV_in_India.ipynb
 
 ---
 
-## 🔑 Key Insights
+## Key Insights
 
-- India's EV market shows **consistent year-over-year growth**, indicating an active expansion
+* India's EV market shows **consistent year-over-year growth**, indicating an active expansion
   phase rather than a plateau.
-- Adoption is **concentrated among a handful of manufacturers and states**, with the top states
+* Adoption is **concentrated among a handful of manufacturers and states**, with the top states
   contributing the majority of national registrations.
-- **Two-wheelers dominate** overall EV adoption, reflecting affordability-driven consumer
+* **Two-wheelers dominate** overall EV adoption, reflecting affordability-driven consumer
   behavior in the current market phase.
-- **Charging infrastructure availability correlates positively** with registration volume.
-- Battery capacity, driving range, and price are **strongly interrelated**, with four-wheelers
+* **Charging infrastructure availability correlates positively** with registration volume.
+* Battery capacity, driving range, and price are **strongly interrelated**, with four-wheelers
   occupying the higher-battery, higher-range, higher-price segment.
-- Several **high-urbanization states remain under-penetrated**, marking them as prime
+* Several **high-urbanization states remain under-penetrated**, marking them as prime
   opportunities for market expansion.
 
 ---
 
-## 💡 Strategic Recommendations
+## Strategic Recommendations
 
-- Expand charging infrastructure in under-penetrated, high-urbanization states.
-- Increase subsidy awareness campaigns in states with favorable demographics but low adoption.
-- Promote long-range EV models in geographically larger states to address range anxiety.
-- Strengthen manufacturer and dealership networks in high-opportunity regions.
-
----
-
-## 🛠️ Tech Stack
-
-| Tool | Purpose |
-|---|---|
-| **Python** | Core programming language |
-| **Pandas / NumPy** | Data manipulation & numerical computation |
-| **Matplotlib / Seaborn** | Data visualization |
-| **Jupyter Notebook** | Interactive analysis environment |
+* Expand charging infrastructure in under-penetrated, high-urbanization states.
+* Increase subsidy awareness campaigns in states with favorable demographics but low adoption.
+* Promote long-range EV models in geographically larger states to address range anxiety.
+* Strengthen manufacturer and dealership networks in high-opportunity regions.
 
 ---
 
-## 📄 License
+## Tech Stack
+
+| Tool                     | Purpose                                   |
+| ------------------------ | ----------------------------------------- |
+| **Python**               | Core programming language                 |
+| **Pandas / NumPy**       | Data manipulation & numerical computation |
+| **Matplotlib / Seaborn** | Data visualization                        |
+| **Jupyter Notebook**     | Interactive analysis environment          |
+
+---
+
+## License
 
 This project is licensed under the [MIT License](LICENSE).
 
@@ -188,6 +189,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 <div align="center">
 
-Made with ⚡ by **Yash Jain**
+Made by **Yash Jain**
 
 </div>
+
